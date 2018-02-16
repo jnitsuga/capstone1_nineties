@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="capstone1_home.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style>
+	body {
+		/*background-image: url("26B16Rm.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-color: white;*/
+	}
+	body, html {
+    height: 100%;
+	}
+	.parallax {
+	    /* The image used */
+	    background-image: url("26B16Rm.jpg");
+
+	    /* Full height */
+	    height: 100%;
+
+	     Create the parallax scrolling effect 
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	.hello {
+		background-color: rgba(255,255,255,0.3);
+	}
+	.navbar {
+		background-color: rgba(255,255,255,0.3);
+	}
+	
+  </style>
+</head>
+
+
+<body>
+<nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav> 
+
+<div class="parallax"></div>
+
+<div class="hello" style="height:500px; background-color: rgba(255,255,255,0.3); font-size:36px;">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+
+<div class="parallax"></div>
+
+
+
+</body>
+</html>
